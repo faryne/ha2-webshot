@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name":             "ha2.tw的網頁截圖工具",
+  "version":          "0.1",
+  "description":      "一鍵截圖並且直接備份在雲端！",
+  "browser_action":   {
+    "default_icon":   {
+      "16":   "small1.png"
+    },
+    "default_title":  "網頁截圖",
+    "default_popup":  "popup.html"
+  },
+  "icons":            {
+    "16":   "small1.png",
+    "48":   "medium1.png",
+    "128":  "big1.png"
+  },
+  "permissions":      [
+    "webRequest", "contextMenus", "notifications", 
+    "http://ha2.tw/"
+  ]
+}
